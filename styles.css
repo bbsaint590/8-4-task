@@ -1,6 +1,32 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
+* {
+    box-sizing: border-box;
+    font-family: helvetica;
+  }
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+  }
 
+  .section {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 800px;
+    top: 50px;
+    right: calc(50% - 400px);
+    background:white;
+    padding: 25px;
+    box-shadow: 3px 3px 5px 0px grey;
+  }
+
+  .columns {
+    
+  }

@@ -50,3 +50,25 @@
     border-radius: 15px;
     text-align: center;
 }
+
+h1 {
+    color: white;
+    background-color: blue;
+    text-decoration-style: solid;
+    text-decoration-thickness: 5px;
+    font-size: 40px;  
+    margin:auto;
+    width: 50%;
+    border-radius: 1px solid blue; 
+}
+
+.result { 
+    color: white;
+    background-color: blue;
+    text-decoration-style: solid;
+    text-decoration-thickness: 5px;
+    font-size: 10px;  
+    margin:auto;
+    width: 60%;
+    border: 1px solid blue; 
+}

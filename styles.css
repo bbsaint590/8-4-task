@@ -1,176 +1,108 @@
 * {
-    box-sizing: border-box;
-    font-family: helvetica;
-  }
-  
-  html, body {
-    background-color: white;
-  }
-
-  .container {
-    max-width: 1200px;
-    height: 1200px;
-    display: flex;
-    padding: 5px; 
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    gap: 0;
-    box-shadow: grey;
-    border-radius: 20%; 
-  }
-
-
-
-.left {
-  width: 50%;
-  height: 50%; 
-  background: blue;
-  border-radius: 20px;
-  padding: 2rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  text-align: center;
-  box-shadow: 10px 10px grey;
-  flex-grow: 1;
+  box-sizing: border-box;
 }
 
-.left_header {
-  font-size: 2rem;
-  font-weight: 600;
-  margin-bottom: 20px;
-  color: purple;
+body {
+  background: #eeeeee;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  width: 100%;
+  margin: 20px auto;
+  background: #ffffff;
+  border-radius: 25px;
+  display: flex;
 }
 
 .result {
-  width: 120px;
-  height: 120px;
-  display: flex;
-  justify-content: center;
-  align-items: center;  
+  width: 50%;
+  padding: 30px 0;
+  text-align: center;
+  background: rgb(105,69,255);
+  background: linear-gradient(180deg, rgba(105,69,255,1) 0%, rgba(51,44,232,1) 100%); 
+  border-radius: 25px;
+  color: #c9bafe;
+}
+
+.result .score {
+  background: #442cde;
   border-radius: 50%;
-  background: purple;
-  color: white; 
-  font-size: 30px;
-  font-weight: 700; 
-  flex-direction: column;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  padding: 25px;
 }
 
-.result .h2 {
-  font-size: 3rem;
-  font-weight: 700; 
-  color: white;
+.result h2 {
+  font-size: 50px;
+  margin: 0;
 }
 
-.left_grade {
-  font-size: 25px;
-  font-weight: 600;
-  color: white;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  text-align: center;
-  height: 100%;
-  flex-direction: column;
+.result h2,
+.result h3 {
+  color: #ffffff;
 }
 
-.grade-text{
-  font-size: 30px;
-  font-weight: 600;
-  color: white;
-  text-align: center;
-}
-
-.grade-description{
-  font-size: 15px;
-  font-weight: 400;
-  color: white;
-}
-
-.right-summary { 
+.summary {
   width: 50%;
-  height: 50%; 
-  background: white;
-  border-radius: 20px;
-  padding: 2rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  box-shadow: 10px 10px grey;
-  flex-grow: 1;
+  padding: 30px;
 }
 
-.right-summary {
-  width: 50%;
-  height: 50%; 
-  font-size: 1rem;
-  font-weight: 600;
-  display:flex; 
-  justify-content: space-around;
-  color: black;
+.section-score {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  text-align: center;
-  height: auto;
-  flex-direction: column;
   padding: 15px;
-  gap: 10px;
+  border-radius: 10px;
+  margin-bottom: 15px;
 }
 
-.right-summary .reaction {
-  background: red; 
-  border-radius: 20px; 
-  justify-content: space-around; 
-  width: 100%; 
-  text-align: left;  
-  padding: 5px;
-  gap: 5px; 
+.section-score h5 {
+  margin: 0;
 }
 
-.right-summary .memory {
-  background: orange; 
-  border-radius: 20px; 
-  justify-content: space-around; 
-  width: 100%; 
-  text-align: left;  
-  padding: 5px;
-  gap: 5px; 
+.section-score.reaction {
+  background: #f7cdc9;
 }
 
-.right-summary .verbal {
-  background: green; 
-  border-radius: 20px; 
-  justify-content: space-around; 
-  width: 100%; 
-  text-align: left;  
-  padding: 5px;
-  gap: 5px; 
+.section-score.reaction h5 {
+  color: #c15e61;
 }
 
-.right-summary .visual {
-  background: purple; 
-  border-radius: 20px; 
-  justify-content: space-around; 
-  width: 100%; 
-  text-align: left; 
-  padding: 5px;
-  gap: 5px;  
+.section-score.memory {
+  background: #feeec9;
 }
 
-.button .continue {
-  width: 100%; 
-  height: auto; 
-  background: grey;
-  border-radius: 20px; 
-  transition: background 2s; 
-  transition-delay: 1s; 
-  padding: 5px;
-  gap: 5px; 
+.section-score.memory h5 {
+  color: #e4a939;
 }
 
-.continue:hover {
-  background: purple; 
+.section-score.verbal {
+  background: #d3f9f5;
+}
+
+.section-score.verbal h5 {
+  color: #229778;
+}
+
+.section-score.visual {
+  background: #d4d4fb;
+}
+
+.section-score.visual h5 {
+  color: #494fb8;
+}
+
+.summary button {
+  display: block;
+  width: 100%;
+  border: none;
+  background: #303b59;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px;
+  border-radius: 25px;
+  margin-top: 35px;
 }

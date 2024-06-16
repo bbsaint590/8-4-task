@@ -1,6 +1,6 @@
 # User Score Card
 
-This project is a web application built to manage and display user scores.
+This project is a web application built using HTML and CSS to manage and display user scores.
 
 ## Description
 

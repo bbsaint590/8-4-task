@@ -1,10 +1,10 @@
 # User Score Card
 
-This project is a web application built using HTML and CSS to manage and display user scores.
+This project is a web application built using HTML and CSS to display user scores.
 
 ## Description
 
-The User Score Card application allows users to view scores. It is designed to provide an easy and intuitive interface for managing user scores, demonstating HTML and CSS skills. 
+The User Score Card is designed to provide an easy and clear interface for viewing user scores.
 
 ## Getting Started
 
@@ -27,40 +27,10 @@ To get started with the User Score Card project, follow these steps:
     ```bash
     cd User-score-card
     ```
+    
+3. **Explore the project:**
 
-3. **Install the dependencies:**
-
-    Using npm:
-
-    ```bash
-    npm install
-    ```
-
-    Or using yarn:
-
-    ```bash
-    yarn install
-    ```
-
-4. **Start the development server:**
-
-    Using npm:
-
-    ```bash
-    npm start
-    ```
-
-    Or using yarn:
-
-    ```bash
-    yarn start
-    ```
-
-    This will start a development server at [http://localhost:3000](http://localhost:3000).
-
-5. **Explore the project:**
-
-    Open your web browser and navigate to [http://localhost:3000](http://localhost:3000) to use the User Score Card application.
+    Open the HTML file in an internet browser such as Firefox or Chrome to view the User Score Card.
 
 ## Authors
 
